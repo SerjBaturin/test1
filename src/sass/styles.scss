@@ -1,0 +1,42 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 96vh;
+  background-color: teal;
+}
+
+h2 {
+  color: white;
+}
+
+span {
+  opacity: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+}
+
+input {
+  margin-bottom: 1em;
+  font-size: 1em;
+  padding: 0.43em .3em;
+  color: teal;
+  border: none;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  color: teal;
+  font-weight: 600;
+}
