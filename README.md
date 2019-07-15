@@ -1,5 +1,5 @@
 # Two Inputs 
-## create two inputs & "sum" button
+## Create two inputs & "sum" button
 
 * Javascript
 * Webpack
@@ -8,5 +8,5 @@
 * Airbnb (eslinter)
 * 07.05.2019 - 09.05.2019
 
-### Please follow the link to launch the application:
+### Please, follow the link to launch the application:
 https://serjbaturin.github.io/two-inputs
