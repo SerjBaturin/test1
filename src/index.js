@@ -1,26 +1,26 @@
 /* eslint-env browser */
 import './sass/styles.scss';
 
-// Определяем кнопку
+// Define button
 const btn = document.querySelector('.btn');
 
-// Определеям обработчик для кнопки
+// Define button's handler
 btn.addEventListener('click', (e) => {
   e.preventDefault();
-  const a = Number(document.querySelector('.a').value.replace(',', '.')); // Первый input
-  const b = Number(document.querySelector('.b').value.replace(',', '.')); // Второй input
-  const result = a + b; // результат
-  // Вывод результата
+  const a = Number(document.querySelector('.a').value.replace(',', '.')); // First input
+  const b = Number(document.querySelector('.b').value.replace(',', '.')); // Second input
+  const result = a + b; // result
+  // Output
   const sum = document.querySelector('.sum');
   switch (true) {
-    case Number.isNaN(result): // Проверяем, что введено
-      sum.innerHTML = 'Ошибка! Введите число пожалуйста.';
+    case Number.isNaN(result): // Check inputs
+      sum.innerHTML = 'Please, enter a number!';
       break;
-    case Number.isInteger(result): // Проверяем integer
+    case Number.isInteger(result): // Check integer
       sum.innerHTML = result;
       break;
-    case !Number.isInteger(result): // или НЕ integer
-      sum.innerHTML = result.toFixed(1); // если НЕ integer, сокращаем до одного знака после запятой
+    case !Number.isInteger(result): // or NOT integer
+      sum.innerHTML = result.toFixed(1); // if NOT integer, reduce to one decimal place
       break;
     default:
       return null;

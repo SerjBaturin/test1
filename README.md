@@ -1,12 +1,12 @@
-# Тестовое задание № 1
-## Создать страницу с двумя полями ввода и кнопкой.
+# Two Inputs 
+## create two inputs & "sum" button
 
-* Язык: Javascript
-* Сборка: Webpack
-* Транспайлер: Babel
-* Препроцессор: Sass
-* Код-стайл: Airbnb (подключен через eslinter)
-* Сроки: 07.05.2019 - 09.05.2019
+* Javascript
+* Webpack
+* Babel
+* Sass
+* Airbnb (eslinter)
+* 07.05.2019 - 09.05.2019
 
-### Чтобы запустить приложение, перейдите по ссылке:
-https://serjbaturin.github.io/test1/
+### Please follow the link to launch the application:
+https://serjbaturin.github.io/two-inputs
